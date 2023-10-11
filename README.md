@@ -3,7 +3,7 @@
 Install with vignettes:
 
 ``` r
-devtools::install_github("odb01/quickresults_dragdrop", build_vignettes = True)
+devtools::install_github("odb01/quickresults_dragdrop", build_vignettes = TRUE)
 ```
 
 Example code
