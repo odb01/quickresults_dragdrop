@@ -1,0 +1,31 @@
+---
+title: "Package vignette yay"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is an example of what you can display here.
+Hello
+Yes
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quickresults)
+```
+
+```{r usage example}
+names <- c("Piet", "Jan", "Klaas", "Lotje", "Mehmed", "Mette")
+
+make_groups_by_time(names)
+
+```
+
